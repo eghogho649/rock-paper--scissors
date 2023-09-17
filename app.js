@@ -1,3 +1,4 @@
+
 let computerScore = 1;
 let playerScore = 1;
 const pScore = document.getElementById('playerScore');
@@ -38,14 +39,14 @@ const game = () =>{buttons.forEach(btn =>{
     }else if(showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[1]){
         cScore.innerHTML = computerScore;
         computerScore++;
-        text.innerHTML = "You Loosed ! ";
+        text.innerHTML = "You Loose ! ";
         text.style.color = 'red';
         text2.innerHTML = text.innerHTML;
         text2.style.color = 'red';
     }else if(showIcon.className === randomClasses[1] && computerShowIcon.className === randomClasses[2]){
         cScore.innerHTML = computerScore;
         computerScore++;
-        text.innerHTML = "You Loosed ! ";
+        text.innerHTML = "You Loose ! ";
         text.style.color = 'red';
         text2.innerHTML = text.innerHTML;
         text2.style.color = 'red';
@@ -59,7 +60,7 @@ const game = () =>{buttons.forEach(btn =>{
     }else if(showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[0]){
         cScore.innerHTML = computerScore;
         computerScore++;
-        text.innerHTML = "You Loosed ! ";
+        text.innerHTML = "You Loose ! ";
         text.style.color = 'red';
         text2.innerHTML = text.innerHTML;
         text2.style.color = 'red';
@@ -70,7 +71,7 @@ const game = () =>{buttons.forEach(btn =>{
         text.style.color = 'rgb(1, 146, 1)';
         text2.innerHTML = text.innerHTML;
         text2.style.color = 'rgb(1, 146, 1)';
-    }
+    } 
  });
 });
 }
